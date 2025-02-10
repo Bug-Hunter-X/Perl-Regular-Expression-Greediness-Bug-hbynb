@@ -1,0 +1,1 @@
+This repository demonstrates a common bug in Perl regular expressions related to greediness.  The script `bug.pl` incorrectly counts matches due to the way the regular expression engine consumes input. The solution `bugSolution.pl` provides a fix by using non-greedy quantifiers.  The bug is explained in detail in the comments within the solution file.
